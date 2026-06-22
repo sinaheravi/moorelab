@@ -1,7 +1,7 @@
 ---
 title: Jennifer Zagrodnik
 role: PhD candidate
-avatar: img_2630.jpg
+avatar: avatar.jpg
 user_groups:
   - Trainees
 ---
