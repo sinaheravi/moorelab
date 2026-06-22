@@ -10,6 +10,7 @@ collections:
     label: "Team Members"
     folder: "content/authors"
     create: true
+    path: "{{slug}}/_index"
     identifier_field: "title"
     fields:
       - { label: "Full Name", name: "title", widget: "string" }
