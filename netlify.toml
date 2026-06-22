@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify"
+  command = "hugo --gc --minify && cp static/admin/config.yml public/admin/config.yml"
   publish = "public"
 
 [build.environment]
@@ -12,10 +12,10 @@
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture"
+  command = "hugo --gc --minify --buildFuture && cp static/admin/config.yml public/admin/config.yml"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify"
+  command = "hugo --gc --minify && cp static/admin/config.yml public/admin/config.yml"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
