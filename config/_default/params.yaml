@@ -2,12 +2,12 @@
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
+i_am_a_sponsor: true
 # Appearance
 
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: minimal
   font: native
   font_size: L
 
@@ -17,8 +17,9 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
+    org_name: 'Moore Lab'
+    org_url: "https://peaceful-fenglisu-e3f491.netlify.app"
+    description: "Translational Neuroimmunology Lab at Memorial University of Newfoundland"
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -45,12 +46,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Moore Lab · Memorial University of Newfoundland · St. John''s, NL'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
 
 # Localization
 

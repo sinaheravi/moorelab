@@ -1,77 +1,51 @@
 ---
-# Display name
-title: Nelson Bighetti
+title: Dr. Craig Moore
 
-# Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Craig
+last_name: Moore
 
-# Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: Professor of Artificial Intelligence
+role: Associate Professor, Division of BioMedical Sciences
 
-# Organizations/Affiliations
 organizations:
-  - name: Stanford University
-    url: ''
+  - name: Memorial University of Newfoundland
+    url: 'https://www.mun.ca/medicine/faculty-and-staff-resources/faculty-a-z/moore-craig-s.php'
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Dr. Moore leads the Translational Neuroimmunology Lab at Memorial University of Newfoundland, investigating immune mechanisms in multiple sclerosis and neurological disease.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Multiple Sclerosis
+  - Neuroinflammation
+  - Blood-Brain Barrier
+  - Plasma Biomarkers
+  - NfL & GFAP
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD
+      institution: Memorial University of Newfoundland
+      year: 2011
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: 'mailto:craig.moore@mun.ca'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+    link: https://scholar.google.com/citations?user=Xhmbu2AAAAAJ&sortby=pubdate
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0003-3333-435X
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'craig.moore@mun.ca'
 
-# Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Principal Investigator
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Dr. Craig Moore leads the Translational Neuroimmunology Lab at Memorial University of Newfoundland. His research investigates how immune dysregulation drives blood-brain barrier breakdown and neurodegeneration, with a particular focus on multiple sclerosis biomarker discovery.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Dr. Moore has established the HITMS cohort, one of Atlantic Canada's largest longitudinal MS patient registries, enabling deep profiling of plasma biomarkers including NfL, GFAP, CXCL13, and IP-10 across disease subtypes and treatment arms.
