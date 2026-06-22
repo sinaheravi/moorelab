@@ -11,11 +11,13 @@ collections:
     folder: "content/authors"
     create: true
     path: "{{slug}}/_index"
+    media_folder: ""
+    public_folder: ""
     identifier_field: "title"
     fields:
       - { label: "Full Name", name: "title", widget: "string" }
       - { label: "Role / Position", name: "role", widget: "string", required: false }
-      - { label: "Photo", name: "avatar", widget: "image", required: false }
+      - { label: "Avatar", name: "avatar", widget: "image", required: false, media_folder: "/content/authors/{{slug}}", public_folder: "" }
       - label: "Group"
         name: "user_groups"
         widget: "select"
