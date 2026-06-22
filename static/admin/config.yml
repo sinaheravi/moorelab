@@ -1,0 +1,48 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/media"
+public_folder: "/media"
+
+collections:
+  - name: "authors"
+    label: "Team Members"
+    folder: "content/authors"
+    create: true
+    fields:
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "First Name", name: "first_name", widget: "string" }
+      - { label: "Last Name", name: "last_name", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Bio", name: "body", widget: "markdown" }
+      - label: "Group"
+        name: "user_groups"
+        widget: "select"
+        multiple: true
+        options: ["Principal Investigator", "Staff", "Trainees", "Graduate Students", "Alumni"]
+      - { label: "Email", name: "email", widget: "string", required: false }
+      - { label: "Photo", name: "avatar", widget: "image", required: false }
+
+  - name: "posts"
+    label: "News"
+    folder: "content/post"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Summary", name: "summary", widget: "text", required: false }
+      - { label: "Photo", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "publications"
+    label: "Publications"
+    folder: "content/publication"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Authors", name: "authors", widget: "list" }
+      - { label: "Journal", name: "publication", widget: "string", required: false }
+      - { label: "Abstract", name: "abstract", widget: "text", required: false }
+      - { label: "URL", name: "url_pdf", widget: "string", required: false }
