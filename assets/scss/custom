@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #1c2e1a !important;
+}
+
+.navbar {
+  background-color: #1c2e1a !important;
+}
+
+.navbar a {
+  color: #e8e0d0 !important;
+}
+
+.navbar a:hover {
+  color: #7dc87a !important;
+}
+
+.btn-primary {
+  background-color: #1c2e1a !important;
+  border-color: #1c2e1a !important;
+}
+
+.btn-primary:hover {
+  background-color: #7dc87a !important;
+  border-color: #7dc87a !important;
+}
+
+a {
+  color: #1c2e1a !important;
+}
+
+a:hover {
+  color: #7dc87a !important;
+}

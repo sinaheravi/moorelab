@@ -11,6 +11,11 @@ appearance:
   font: native
   font_size: L
 
+  header:
+  navbar:
+    background: dark
+    color: dark
+
 # SEO
 
 marketing:

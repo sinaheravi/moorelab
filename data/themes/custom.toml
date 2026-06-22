@@ -1,0 +1,19 @@
+[light]
+  primary = "#1c2e1a"
+  background = "#ffffff"
+  home_section_odd = "#ffffff"
+  home_section_even = "#f4f7f4"
+  link = "#1c2e1a"
+  link_hover = "#7dc87a"
+  navbar_background = "#1c2e1a"
+  navbar_text = "#e8e0d0"
+
+[dark]
+  primary = "#7dc87a"
+  background = "#0a150a"
+  home_section_odd = "#0a150a"
+  home_section_even = "#0f1e0e"
+  link = "#7dc87a"
+  link_hover = "#96d894"
+  navbar_background = "#0a150a"
+  navbar_text = "#e8e0d0"
