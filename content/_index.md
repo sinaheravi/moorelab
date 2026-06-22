@@ -18,13 +18,4 @@ sections:
         <br>
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
         {{% cta cta_link="./research/" cta_text="Our research →" %}}
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
 ---
